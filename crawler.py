@@ -1,8 +1,12 @@
 from worker import Worker
 from queue import SimpleQueue as Queue
+import os
 
 def main():
-    NUM_WORKER = 4
+    NUM_WORKER = 6
+
+    if not os.path.isdir(os.getcwd() + "\\pics"):
+        os.mkdir(os.getcwd() + "\\pics")
 
     q = Queue()
     for i in range(3220, 3200, -1):
