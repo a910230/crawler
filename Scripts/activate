@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\python\crawler"
+VIRTUAL_ENV="c:\python\crawler"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
